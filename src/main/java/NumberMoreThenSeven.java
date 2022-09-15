@@ -5,7 +5,7 @@ public class NumberMoreThenSeven {
         try {
             number = Type.typeDouble();
         } catch (NumberFormatException e) {
-            System.out.println(e.toString());
+            System.out.println("Invalid number:"+e.toString().substring(50));
             e.printStackTrace();
         }
         if (number > 7) {

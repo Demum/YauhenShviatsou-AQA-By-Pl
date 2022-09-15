@@ -14,7 +14,7 @@ public class ElementsOfArrayAreMultiplesOfThree {
                     System.out.print(" " + array[i]);
             }
         } catch (NumberFormatException e) {
-            System.out.println(e.toString());
+            System.out.println("Invalid number:"+e.toString().substring(50));
             e.printStackTrace();
         }
         Type.closeScanner();
