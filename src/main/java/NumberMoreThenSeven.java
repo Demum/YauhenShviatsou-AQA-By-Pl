@@ -10,6 +10,8 @@ public class NumberMoreThenSeven {
         }
         if (number > 7) {
             System.out.println("Привет");
+        } else {
+            System.out.println("Program is closing");
         }
         Type.closeScanner();
     }
