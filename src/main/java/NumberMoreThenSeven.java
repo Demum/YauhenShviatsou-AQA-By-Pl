@@ -15,4 +15,5 @@ public class NumberMoreThenSeven {
         }
         Type.closeScanner();
     }
+
 }
